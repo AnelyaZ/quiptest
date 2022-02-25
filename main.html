@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>СОР</title>
+	</head>
+	<body>
+		<div class = "mainDiv">
+			<div class = "innerDiv1">
+				<p>Flexbox</p>
+			</div>
+			<div class = "innerDiv2">
+				<div class="miniDiv1"></div>
+				<div class="miniDiv3">
+					<p>11"A"</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<style>
+		.mainDiv{
+			background-color: #314ce0;
+			height: 600px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+		.innerDiv1{
+			background-color: #9dabfc;
+			height: 525px;
+			width: 45%;
+			margin: 20px;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-end;
+			padding-left: 30px;
+		}
+		.innerDiv2{
+			background-color: #314ce0;
+			height: 525px;
+			width: 45%;
+			margin: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.miniDiv1{
+			background-color: #9dabfc;
+			height: 170px;
+			width: 100%;
+		}
+		.miniDiv2{
+			background-color: #314ce0;
+			height: 170px;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.miniDiv3{
+			background-color: #9dabfc;
+			height: 170px;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.microDiv1{
+			background-color: #9dabfc;
+			height: 160px;
+			width: 49%;
+		}
+		.microDiv2{
+			background-color: #9dabfc;
+			height: 160px;
+			width: 49%;
+		}
+		p{
+			font-size: 30pt;
+		}
+	</style>
+</html>
